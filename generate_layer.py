@@ -51,7 +51,7 @@ layer_dict = {"name": "Relevant Attack Pattern Selection", "version": {"attack":
 
 for technique in technique_list:
     # Generate the layer for the technique
-    layer_dict["techniques"].append({"techniqueID": technique, "tactic": "Discovery", "score": 1, "color": "", "comment": "Test Comment", "enabled": True, "metadata": "", "showSubtechniques": False})
+    layer_dict["techniques"].append({"techniqueID": technique, "tactic": "Discovery", "score": 1, "color": "", "comment": "Test Comment", "enabled": True, "metadata": [], "showSubtechniques": False})
 
 
 # write layer_dict to json file
